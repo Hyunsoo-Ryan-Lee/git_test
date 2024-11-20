@@ -3,8 +3,8 @@ ls -al
 cd .git
 ls -al
 
-git config user.name "RyanLee"
-git config user.email"hyunsoo@codeit.com"
+git config --global user.name "Hyunsoo-Ryan-Lee"
+git config --global user.email "hyunsooyein@gmail.com"
 
 git add -> 수정된 파일의 모습이 커밋에 포함될 것이라 지정하는 것.
 git commit -m ""
