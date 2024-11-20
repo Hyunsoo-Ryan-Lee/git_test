@@ -5,6 +5,8 @@ ls -al
 
 git config --global user.name "Hyunsoo-Ryan-Lee"
 git config --global user.email "hyunsooyein@gmail.com"
+git config --unset --global user.name "Hyunsoo-Ryan-Lee" (삭제하기)
+git config --unset --global user.email "hyunsooyein@gmail.com" (삭제하기)
 
 git add -> 수정된 파일의 모습이 커밋에 포함될 것이라 지정하는 것.
 git commit -m ""
@@ -52,6 +54,10 @@ git push origin master
 ---이렇게 한번 입력 후 push 이후에는 ~/.git-credentials 폴더가 생성되고 입력 없이 push 가능
 ~/.git-credentials 지우고 과정 반복하면 다시 이름이랑 비번 요구
 
-git remote set-url origin https://Hyunsoo-Ryan-Lee@github.com/Hyunsoo-Ryan-Lee/git_test.git
+git remote set-url origin https://github.com/Hyunsoo-Ryan-Lee/git_test.git
 
 cat .git/config 명령어로 바뀐 origin url 확인 가능
+
+https://jjuke-brain.tistory.com/entry/Git-Push-%EB%98%90%EB%8A%94-Pull-%ED%95%A0-%EB%95%8C-id-password-%EC%A0%80%EC%9E%A5%ED%95%98%EA%B8%B0-Github-Personal-Access-Token
+
+
