@@ -26,3 +26,18 @@ git help [커맨드 이름] : 사용법이 궁금한 Git 커맨드의 공식 메
 ---
 GITHUB
 
+
+git init
+git add
+git commit -m
+
+git remote add origin [주소]
+git pull origin master
+깃헙에서 token 발급
+git add .
+git commit -m ""
+git remote -v
+
+git push origin -u master
+    - 사용자 이름 입력
+    - 비번에 token 입력
