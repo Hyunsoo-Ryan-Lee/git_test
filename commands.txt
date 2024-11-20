@@ -41,3 +41,17 @@ git remote -v
 git push origin -u master
     - 사용자 이름 입력
     - 비번에 token 입력
+
+## 로컬에 이름과 비번 저장 후 사용
+git config --global credential.helper store -> 자격 증명 저장소 활성화
+git add .
+git commit -m ""
+git push origin master
+    - 사용자 이름 입력
+    - 비번에 token 입력
+---이렇게 한번 입력 후 push 이후에는 ~/.git-credentials 폴더가 생성되고 입력 없이 push 가능
+~/.git-credentials 지우고 과정 반복하면 다시 이름이랑 비번 요구
+
+git remote set-url origin https://Hyunsoo-Ryan-Lee@github.com/Hyunsoo-Ryan-Lee/git_test.git
+
+cat .git/config 명령어로 바뀐 origin url 확인 가능
